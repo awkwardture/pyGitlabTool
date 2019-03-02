@@ -1,0 +1,1 @@
+twine upload --repository-url http://10.145.208.184:8082/repository/pypi-host/ dist/*
