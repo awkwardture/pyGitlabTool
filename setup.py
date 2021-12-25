@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pyGitlabTool',
-    version='0.2.0',
+    version='0.3.0',
     packages=['gitlabtool'],
     install_requires=[
         "requests",
@@ -12,8 +12,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            #name_of_executable = module.with:function_to_execute
-            'pyGitlabTool = gitlabtool.__main__:main'
+            # name_of_executable = module.with:function_to_execute
+            'pyGitlabTool = gitlabtool.__main__:main',
+            'gitlog2chglog = gitlabtool.__main__:g2c'
         ]
     },
     # scripts=['bin/pyGitlabTool'],

@@ -1,1 +1,1 @@
-__all__ = ["confmaker"]
+__all__ = ["confmaker", "gitlog2chglog"]
